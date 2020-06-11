@@ -1,0 +1,65 @@
+/*GYAKORLÁS PSZEUDO Attribútumok:
+Fontosabb pseudo szelektorok
+•	:hover - ha az elem fölé viszik az egeret,
+•	:visited - azok a linkek, amelyekre már kattintottak,
+•	:active - ha a felhasználó használ egy elemet, mondjuk rákattint,
+•	:focus - elsősorban input mezőknél, ha éppen használjuk,
+•	:first-child - a szülő elem első gyereke,
+•	:last-child - a szülő elem utolsó gyereke,
+•	:nth-child(n) - az n-edik gyereke a szülő elemnek,
+•	:empty - olyan elem, aminek nincs gyereke, azaz nem tartalmaz beágyazott elemet,
+•	:checked - a kiválasztott checkbox,
+•	:disabled - letiltott elem.
+
+*/
+body {
+    background-color: #f0f0f0;
+}
+.login-div {
+    padding: 15px;
+    border: solid 1px black;
+    box-shadow: 0 0 2px;
+    display: inline-block;
+    
+}
+.login-div input {
+        display: block;
+        margin-bottom: 7px;
+}
+/* Attribútum szelektor, jele [ ] */
+
+.login-div input[type="email"] {
+        border: solid 1px blue;
+
+}
+.login-div input[type="password"] {
+        border: solid 1px red ;
+}
+/* Pszeudo selector  :hover*/
+
+.login-div button:hover {
+    box-shadow:  2px 2px 3px #c0c0c0;
+}
+.login-div input:focus {
+    box-shadow: 2px 2px 3px #c0c0c0;
+    border: none;
+}
+/* Pszeudo selector  fókusz 
+Ha fókuszba kerül az input mező árnyékot kap
+border: none; ----> gyári szegélyt letiltja */
+.login-div input:focus {
+    box-shadow: 2px 2px 3px #ff0033;
+    border: none;
+}
+
+/* Pszeudo selector  aktív  first-child , last-child */
+
+ul li:last-child {
+    text-decoration: underline;
+}
+ul li:first-child {
+    color: blue;
+}
+ul li:nth-child(2) {
+    color: #ff0033;
+}
