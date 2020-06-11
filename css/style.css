@@ -100,6 +100,7 @@ th  {
     box-shadow:  2px 2px 3px gray;
     
     
+<<<<<<< HEAD
     
 }
 a {
@@ -130,6 +131,18 @@ a {
     color: #28a745;
     background: rgb(255, 208, 0);
     
+=======
+}
+a {
+    margin: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: rgb(255, 208, 0);
+    box-shadow: 2px 2px 5px grey;
+    text-decoration-line: none;
+>>>>>>> 71e8a2688fdfc764ce96f748d6cf2afa78dd7aeb
 }
     
 /*Weboldali navigáció formázása*/
@@ -147,6 +160,7 @@ a {
     background:rgb(255, 208, 0)
 
 }
+<<<<<<< HEAD
 /*Navigáció formázás javítás - Rendelés*/
 #spec {
     
@@ -171,3 +185,7 @@ a {
     
     
 }
+=======
+
+
+>>>>>>> 71e8a2688fdfc764ce96f748d6cf2afa78dd7aeb
